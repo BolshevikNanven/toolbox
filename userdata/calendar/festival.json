@@ -1,0 +1,90 @@
+{
+    "name": "中国节假日",
+    "defaultColor": "#388e3c",
+    "events": [
+        {
+            "id": "4231fwfe34fcx2dx32",
+            "title": "元旦",
+            "start": "2023-01-01",
+            "end": "2023-01-03",
+            "allDay": true,
+            "editable": false,
+            "repeat": false,
+            "description": "",
+            "location": "",
+            "color": "#388e3c"
+        },
+        {
+            "id": "4231fwfe3ferf2x2dx32",
+            "title": "春节",
+            "start": "2023-01-21",
+            "end": "2023-01-28",
+            "allDay": true,
+            "editable": false,
+            "repeat": false,
+            "description": "",
+            "location": "",
+            "color": "#388e3c"
+        },
+        {
+            "id": "4231fwgds13-rf2x2dx32",
+            "title": "清明",
+            "start": "2023-04-05",
+            "end": "2023-04-06",
+            "allDay": true,
+            "editable": false,
+            "repeat": false,
+            "description": "",
+            "location": "",
+            "color": "#388e3c"
+        },
+        {
+            "id": "4231ffes2s13-rf2x2dx32",
+            "title": "劳动节",
+            "start": "2023-05-01",
+            "end": "2023-05-06",
+            "allDay": true,
+            "editable": false,
+            "repeat": false,
+            "description": "",
+            "location": "",
+            "color": "#388e3c"
+        },
+        {
+            "id": "4231fd-asds-rf2x2dx32",
+            "title": "端午节",
+            "start": "2023-06-22",
+            "end": "2023-06-25",
+            "allDay": true,
+            "editable": false,
+            "repeat": false,
+            "description": "",
+            "location": "",
+            "color": "#388e3c"
+        },
+        {
+            "id": "4231dsas21s-rf2x2dx32",
+            "title": "中秋节",
+            "start": "2023-09-29",
+            "end": "2023-10-01",
+            "allDay": true,
+            "editable": false,
+            "repeat": false,
+            "description": "",
+            "location": "",
+            "color": "#388e3c"
+        },
+        {
+            "id": "4d23d1s-rf2x2dx32",
+            "title": "国庆节",
+            "start": "2023-10-01",
+            "end": "2023-10-07",
+            "allDay": true,
+            "editable": false,
+            "repeat": false,
+            "description": "",
+            "location": "",
+            "color": "#388e3c"
+        }
+    ]
+}

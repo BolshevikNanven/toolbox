@@ -1,0 +1,25 @@
+.mainHeaderBox{
+    width: 100%;
+    overflow: hidden;
+}
+.mainHeader{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 4px 16px ;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #f9f9fa;
+}
+.mainHeaderTitle{
+    font-size: 16px;
+    font-weight: 500;
+}
+.mainHeaderMid{
+    flex: 1;
+}
+.mainHeaderLst{
+    display: flex;
+    flex-direction: row;
+
+}

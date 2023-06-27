@@ -1,0 +1,148 @@
+.mincardBase{
+    max-width: 276px;
+    min-height: 398px;
+    box-sizing: border-box;
+    background:linear-gradient(to right bottom,rgba(255,255,255,1),rgba(236, 249, 255, 0.6));
+    border-radius: 9px;
+    padding: 8px 16px;
+    box-shadow: 0 2.6px 5px 1px rgba(0, 0, 0, .05),0 .2px 2px .6px rgba(0, 0, 0, .08),0 0 1.2px .5px rgba(0, 0, 0, .04);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.mincardHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+.mincardHeader p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 13px;
+    color: #212121;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+.mincardHeader button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 6px;
+    color: #000;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.mincardHeader button:hover{
+    background-color: rgba(0, 0, 0, .05);
+}
+.mincardHeader button:active{
+    background-color: rgba(0, 0, 0, .08);
+}
+.mincardDatePickerHandle{
+    width: fit-content;
+    margin: 8px auto 6px 0px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .6px;
+    cursor: pointer;
+}
+.mincardWeekBox{
+    width: 100%;
+}
+.mincardWeekTitle,.mincardWeekDay{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mincardWeekTitleItem{
+    box-sizing: border-box;
+    padding: 2px;
+    text-align: center;
+    font-size: 13px;
+    color: #6e6e6e;
+    width: 26px;
+    height: 26px;
+}
+.mincardWeekDayItem{
+    cursor: pointer;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #2a2a2a;
+    letter-spacing: .5px;
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+}
+.mincardWeekDayItem:hover{
+    background-color: rgba(0, 0, 0, .08);
+}
+.mincardWeekDayItem.select{
+    border: 2px solid #1976d2;
+}
+.mincardWeekDayItem.today{
+    background-color: #1976d2;
+    color: #ffffff;
+}
+.mincardEventBox{
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    margin: 8px 0;
+}
+.mincardEventPreBox{
+    box-sizing: border-box;
+    margin: 4px 2px;
+    padding: 8px;
+    background-color: rgba(255,255,255,1);
+    box-shadow: 0 .6px 3px .2px rgba(0, 0, 0, .03);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 48px;
+    text-decoration: none;
+}
+.mincardEventPreBlank{
+    width: 4px;
+    margin: 4px 2px;
+    height: 100%;
+}
+.mincardEventPreState{
+    font-size: 12px;
+    color: #6e6e6e;
+    line-height: 14px;
+    margin: 0 8px;
+}
+.mincardEventPreTitle{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    color: #212121;
+    margin:0 8px;
+}
+.mincardEventPreAddBtn{
+    text-decoration: none;
+    margin: 8px 0;
+    padding: 8px 32px;
+    background-color: #1976d2;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+}
+.mincardEventPreAddBtn:hover{
+    background-color: #005fbe;
+}

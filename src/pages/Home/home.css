@@ -1,0 +1,48 @@
+.homeBase{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    padding: 16px;
+    overflow: hidden;
+}
+.homeBodyBox{
+    flex: 1;
+}
+.homeTitleBox{
+    display: flex;
+    flex-direction: row;
+    margin: 8px 8px 12px 8px;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.homeTitleBox>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.homeTitleBox h2{
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: .6px;
+    color: #000;
+    line-height: 1;
+    margin-right: 16px;
+}
+.homeTitleBox img{
+    width: 28px;
+    height: 28px;
+}
+.homeTitleBox p{
+    line-height: 1;
+    margin: 0 2px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1;
+    color: #2b2b2b;
+}

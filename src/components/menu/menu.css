@@ -1,0 +1,101 @@
+.menuBox{
+    min-height: 100%;
+    width: 50px;
+    padding-top: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.menuBox.open{
+    width: 238px;
+}
+.menuBox.open .menuname{
+    display: block;
+}
+.menu{
+    flex: 1;
+    padding: 0 4px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.menub{
+    padding: 0 4px;
+    display: flex;
+    flex-direction: column;
+}
+.menuBtn{
+    text-decoration: none;
+    border-radius: 5px;
+    height: 38px;
+    position: relative;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    cursor: default;
+}
+.menuBtn.menuBtn.active::before{
+    content: '';
+    z-index: 3;
+    position: absolute;
+    left: 0px;
+    margin: 14px 0;
+    width: 3px;
+    border-radius:2px;
+    height: 16px;
+    background-color: #1565c0;
+}
+.menuBtnS{
+    border: none;
+    border-radius: 5px;
+    height: 38px;
+    width: 42px;
+    padding: 0;
+    position: relative;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    cursor: default;
+}
+.menuBtnIcon{
+    width: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform ease-in-out .07s;
+    color: #000000;
+    font-size: 16px;
+}
+.menuname{
+    color: #212121;
+    font-size: 14px;
+    display: none;
+}
+.menuBlank{
+    transition: height cubic-bezier(1, 0, 0, 0.9) .26s;
+    z-index: 3;
+    position: absolute;
+    left: 5px;
+    margin: 14px 0;
+    width: 3px;
+    border-radius:2px;
+    height: 18px;
+    background-color: #1565c0;
+}
+.menuBtn:hover,.menuBtnS:hover{
+    background-color: rgba(0,0,0,0.05);
+}
+.menuBtn:active,.menuBtnS:active{
+    background-color: rgba(0,0,0,0.09);
+}
+.menuBtnS:active>.menuBtnIcon{
+    transform: scaleX(0.6);
+}
+.menuBtn.active{
+    background-color: rgba(0,0,0,0.04);
+}
+.menuBtn.active::before{
+    display: block;
+}
